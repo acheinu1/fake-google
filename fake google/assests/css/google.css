@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    /* overflow-x: hidden; */
+}
+
+img {
+    height: 17em;
+    width: 38em;
+    /* height: 95; */
+    /* background-image: img("assests/images/googles-new-logo-5078286822539264.3-hp2x.gif") top right no-repeat; */
+    /* background-size: 50% */
+
+}
+.container{
+    position: relative;
+    left: 35em;
+    top: 8em;
+    /* width: 28em; */
+}
+.input1 {
+    width: 37em;
+    height: 2em;
+    padding: 0.5em;
+    position: relative;
+    bottom: 2em;
+    border-radius: 1em;
+   }
+.input2 {
+    position: relative;
+    left: 11em;
+    height: 2.5em;
+    width: 8em;
+    bottom: 1em;
+}
+small {
+    position: relative;
+    left: 13em;
+}
+ ul{
+    display: flex;
+    list-style: none;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li {
+    padding: 1em;
+}
+.foot {
+    position: relative;
+    top: 20em;
+}
+.header {
+    position: relative;
+    left: 0em;
+}
+.ul1 {
+    position: relative;
+    right: 80em;
+    bottom: 1em;
+}
+.ul2{
+    position: relative;
+    bottom: 4em;
+    left: -4em;
+}
